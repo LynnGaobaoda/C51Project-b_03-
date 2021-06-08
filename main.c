@@ -21,7 +21,7 @@ void main()
 		TR0=0;
 		CountCM();
 		
-		LCD_ShowNum(2,1,Distance,3);
+		LCD_ShowNum(2,1,Distance,5);
 		Delay(1000);
 	}	
 }

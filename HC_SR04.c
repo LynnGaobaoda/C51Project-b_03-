@@ -11,8 +11,8 @@
 
 sbit Trig=P2^0;	//发送信号 10us高电平
 sbit Echo=P2^1;	//接收信号 高电平持续时间表示 声速时长
-unsigned char Time;
-unsigned char Distance;
+unsigned int Time;
+unsigned int Distance;
 
 
 /**

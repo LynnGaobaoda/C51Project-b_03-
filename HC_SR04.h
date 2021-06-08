@@ -1,8 +1,8 @@
 #ifndef _HC_SR04_H_
 #define _HC_SR04_H_
 
-extern unsigned char Time;
-extern unsigned char Distance;
+extern unsigned int Time;
+extern unsigned int Distance;
 sbit Trig=P2^0;	
 sbit Echo=P2^1;
 
